@@ -1,0 +1,116 @@
+body {
+    height: 150vh;
+    background-image: url(image/fit16.jpeg);
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif, popins;
+}
+
+
+section {
+    padding-top: 40px;
+}
+
+.r-form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.r-form-main-con {
+    width: 40%;
+    border-radius: 8px;
+    color: wheat;
+    background-color: rgb(41, 38, 38);
+}
+
+.r-form-main-con form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+h1 {
+    color: rgb(250, 29, 66);
+}
+
+.must {
+    color: rgba(245, 59, 59, 0.863);
+}
+
+.lh {
+    line-height: 24px;
+}
+
+.input-con {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-con input {
+    height: 35px;
+    width: 100%;
+    color: black;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+.input-con ::placeholder {
+    padding-left: 10px;
+}
+
+.input-con select {
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+.input-con option {
+    color: black;
+}
+
+.goals {
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+
+.form-control {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.mog-con {
+  display: flex;
+  padding-left: 3px;
+  gap: 10px;
+}
+
+
+
+
+
+button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  background-color: rgb(212, 5, 39, 0.81);
+}

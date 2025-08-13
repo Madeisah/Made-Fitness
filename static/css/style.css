@@ -1,0 +1,1486 @@
+body {
+    /* height: 500vh; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 38, 38);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 90%;
+    margin-inline: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* -------------------Header Styling-------------------- */
+
+
+
+.logo {
+    font-size: 20px;
+}
+    
+
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(250, 29, 66);
+    z-index: 200;
+}
+
+.header-main-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+
+.header-main-con a h4 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.menu-toggle {
+    display: none;
+}
+
+
+.btt {
+    display: flex;
+    gap: 5px;
+}
+
+.m-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    padding: 0 10px;
+    background-color: white;
+}
+
+
+.m-btn a {
+     color: rgb(250, 29, 66);
+}
+
+.m-btn:hover {
+    background-color: rgb(250, 29, 66);
+    border: 1px solid white;
+    color: white;
+}
+
+.m-btn:hover a{
+    color: white;
+}
+
+
+
+
+/* .social-con {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} */
+
+
+
+ 
+
+/* -----------------Hero Styling----------------------- */
+
+.hero {
+    background-image: url(static/../image/The\ Secret\ to\ Body\ Recomposition_\ Lose\ Fat\ &\ Gain\ Muscle\ _\ Legion.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-image: fill 1 linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.712));
+    padding: 40px 0;
+}
+
+
+.hero-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-detail-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.hero-detail hr {
+    width: 8%;
+    border: 3px solid rgb(250, 29, 66);
+}
+
+
+.hero-detail h2 {
+    color: white;
+    font-size: 29px;
+}
+
+
+.hero-detail h1 {
+    color: white;
+    font-size: 80px;
+    /* text-shadow: 7px 5px 2px rgba(2, 2, 2, 0.644); */
+}
+
+
+.span-h1 {
+    color: rgb(250, 29, 66);
+}
+
+
+.hero-detail p {
+    line-height: 170%;
+    font-size: 18px;
+    width: 80%;
+    font-weight: 500;
+    color: rgb(238, 231, 231);
+}
+
+
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 30px;
+    background-color: rgb(250, 29, 66);
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+
+
+
+.hero-btn:hover {
+    transform: translateY(-10px);
+    background-color: rgb(136, 4, 26);
+}
+
+
+
+
+ /* ----------------------------the Why Section--------------------------------------------- */
+
+ .why {
+    background-color: black;
+    padding: 80px 0;
+}
+
+
+.why-main-con {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.why-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.why-detail p {
+    line-height: 160%;
+}
+
+
+.faq-con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    border: 2px solid rgb(250, 29, 66);
+    padding: 20px;
+}
+
+.faq-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.faq-btn i {
+    font-size: 20px;
+}
+
+.faq-con p {
+    line-height: 30px;
+}
+
+.dropdown-container {
+    display: none;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 0.3s ease;
+}
+
+
+.faq-main-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------Program Styling------------------------------------ */
+
+.program-main-con1 hr {
+    width: 80px;
+    border: 3px solid rgb(250, 29, 66);
+}
+
+.program-main-con1  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.program-main-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.program {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.p-con1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.p-con1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.p-con-detail {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 40px 0; */
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0));
+}
+
+
+.p-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+
+.p-con-detail h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------Coaches Details------------------------------------ */
+
+.coaches {
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 50px 0;
+}
+
+.program-main-con1 {
+    padding: 60px 0;
+}
+
+.hr {
+    width: 5%;
+}
+
+.coaches-main-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 40px; */
+}
+
+
+
+.c-con {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.103); 
+    backdrop-filter: blur(50px); 
+}
+
+
+.c-con-image {
+    width: 100%;
+}
+
+
+.c-con-image img {
+    width: 100%;
+}
+
+
+ .c-con-detail1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px;
+} 
+
+/* .container1 {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(50px); 
+} */
+
+
+.pp {
+    line-height: 160%;
+}
+
+
+.cc {
+    font-weight: 500;
+    color: rgba(231, 75, 101, 0.774);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------About styling---------------------------------------- */
+.about-con {
+    padding: 80px 0;
+    background-color: black;
+}
+
+
+.about-main-con {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.about-sub-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.about-sub-con p {
+    line-height: 160%;
+}
+
+.l-main-con {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.l-con-1 {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.l-con-1 i {
+    padding: 20px;
+    height: 20px;
+    background-color: rgb(250, 29, 66);
+}
+
+.l-con-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.c-social-main-n {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-con1 {
+    display: flex;
+    gap: 5px;
+}
+
+.social-con1 i {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+p {
+    line-height: 20px;
+}
+
+.map {
+    width: 100%;
+}
+
+.contact-con {
+    /* width: 100%; */
+    border: 2px solid grey;
+}
+
+.c-main-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 30px 30px 20px;
+}
+
+.c-input-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-input-con label {
+    font-size: 14px;
+}
+
+
+.c-input-con input {
+    width: 100%;
+    height: 35px;
+    padding-left: 8px;
+    border: 1.5px solid grey;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.c-input-con textarea {
+    width: 100%;
+    height: 90px;
+    padding: 10px 0 0 10px;
+    border: 1.5px solid grey;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.c-main-con button {
+    width: 45%;
+    height: 35px;
+    border: none;
+    background-color: rgb(250, 29, 66);
+}
+
+
+
+
+
+
+
+/* ---------------------------------FOOTER STYLING------------------------------------------ */
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+    line-height: 35p
+}
+
+.footer-main-con {
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+}
+
+
+/* .circle-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+} */
+
+.c-box {
+    position: relative;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: -40px;
+    left: 47%;
+}
+
+
+.c-box i {
+    color: rgb(250, 29, 66);
+    font-size: 60px;
+}
+
+.footer-main-con1 h3::after  {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(250, 29, 66), black);
+}
+
+.footer-main-con1 h3 {
+    position: relative;
+    display: inline-block;
+}
+
+
+footer h2 {
+    text-align: center;
+    padding: 60px;
+}
+
+.f-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.f-m-c {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* padding: 0 100px; */
+}
+
+.hp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hp h1 {
+    font-size: 20px;
+}
+
+.lh{
+    line-height: 160%;
+}
+
+.footer-main-con1 hr {
+    width: 100%;
+    color:  rgb(250, 29, 66);
+    background: linear-gradient(to top white rgb(250, 29, 66) black);
+} 
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    z-index: 100;
+}
+
+.sub-con input::placeholder {
+    color: rgba(255, 255, 255, 0.644);
+}
+
+
+.sub-con input {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.s-btn {
+    height: 40px;
+    /* width: 125%; */
+    padding: 0 30px;
+    background-color: rgb(250, 29, 66);
+    border: none;
+    border-radius: 100px;
+} 
+
+
+.email {
+    height: 40px;
+    /* width: 125%; */
+    padding: 0 30px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.103);
+} 
+
+
+ .half-rectangle {
+    background-color: transparent;
+    border-color: none;
+    border-radius: 100px;
+    border: 5px solid rgb(250, 29, 66);
+    width: 99%;
+    height: 400px;
+    position: absolute;
+    top: -230px;
+    z-index: -2;
+ }
+
+
+
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px 0;
+ }
+
+.img1 {
+    height: 120px;
+    width: 140px;
+    border-radius: 20px ;
+    overflow: hidden;
+}
+
+.img1 img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    transform: scale(1.9);
+}
+
+
+
+
+
+
+
+.f-menu p {
+    color: rgb(250, 29, 66);
+}
+
+
+
+
+
+.copyright {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  rgba(255, 255, 255, 0.103); 
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* background: linear-gradient(to top, rgb(250, 29, 66), rgba(0, 0, 0, 0.822)); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) { 
+
+
+
+.container {
+    width: 90%;
+    max-width: 90%;
+    margin-inline: auto;
+}
+  
+    
+
+
+.menu {
+    position: fixed;
+    top: 60px;
+    right: -400px;
+    flex-direction: column;
+    background-color: black;
+    align-items: start;
+    width: 150px;
+    padding: 20px 20px 20px 20px;
+    grid-auto-flow: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.menu li a {
+    padding: 0 10px;
+}
+
+
+
+/* ---------------------icon style------------------------- */
+
+
+.menu.-toggle {
+    display: block;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+.icon {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* -----------------------program Style--------------------- */
+
+.program-main-con1 {
+    width: 100%;
+}
+
+.program-main-con {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+/* -----------------------Coaches Style---------------------- */
+
+.coaches {
+    width: 100%;
+}
+
+.coaches-main-con {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    /* width: 90%; */
+}
+
+
+
+
+/* ----------------------Footer Style------------------------- */
+
+footer {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+}
+
+.newsletter {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    z-index: 100;
+    gap: 10px;
+}
+
+.footer-main-con {
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.f-m-c {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-main-con1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.f-menu {
+    padding-left: 50px;
+}
+
+.gallery {
+    gap: 10px;
+    padding: 20px 0;
+    padding-left: -40;
+}
+
+
+.copyright {
+    width: 100%;
+}
+
+
+
+
+
+/* --------------------use for JAVASCRIPT------------------ */
+
+
+.menu.open {
+    right: 0px;
+}
+
+
+.icon.visible {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) { 
+
+
+.hero {
+    padding: 80px 0 40px 0;
+}
+
+
+
+.logo {
+    font-size: 16px;
+}
+    
+
+
+
+
+.hero-detail hr {
+    width: 15%;
+}
+
+
+
+.hero-detail h1 {
+    font-size: 40px;
+}
+
+
+
+.hero-detail p {
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------ON SCROLL POSITION ANIMATION----------------------------------- */
+
+
+
+/* <div class="reveal-from bottom" data-delay="2000">HELLO MY NAME IS</div> */
+/* <div class="reveal-from top" data-delay="3000">HELLO MY NAME IS</div> */
+/* <div class="reveal-from right" data-delay="4000">HELLO MY NAME IS</div> */
+/* <div class="reveal-from left" data-delay="5000">HELLO MY NAME IS</div> */
+
+
+
+
+
+.reveal-from {  
+  opacity: 0;    
+  transition: opacity 0.5s ease, transform 2s ease;     
+}  
+
+
+
+
+
+
+
+
+/* ------------------------------from right-------------------------------------- */
+
+
+
+.reveal-from.right {  
+  transform: translateX(200px); /* Start from the left */  
+}  
+
+
+
+.reveal-from.visible {  
+  opacity: 1;  
+  transform: translatex(0);  
+}
+
+
+
+/* ------------------------------from left-------------------------------------- */
+
+
+
+.reveal-from.left {  
+  transform: translateX(-200px); /* Start from the left */  
+}  
+
+
+
+.reveal-from.visible {  
+  opacity: 1;  
+  transform: translatex(0);  
+}
+
+
+
+
+
+/* ------------------------------from top-------------------------------------- */
+
+
+
+.reveal-from.top {  
+  transform: translateY(-30px); /* Start from the left */  
+}  
+
+
+
+.reveal-from.visible {  
+  opacity: 1;  
+  transform: translateY(0);  
+}
+
+
+
+
+/* ------------------------------from bottom-------------------------------------- */
+
+
+
+.reveal-from.bottom {  
+  transform: translateY(100px); /* Start from the left */  
+}  
+
+
+
+
+.reveal-from.bottom2 {  
+  transform: translateY(100px); /* Start from the left */  
+}  
+
+
+.reveal-from.visible {  
+  opacity: 1;  
+  transform: translateY(0);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------OPACITY ANIMATION-------------------------------------- */
+
+/* <div class="reveal-opacity" data-delay="100" data-opacity-duration="1">HELLO MY NAME IS</div> */
+/* <div class="reveal-opacity" data-delay="200" data-opacity-duration="1.5">HELLO MY NAME IS</div> */
+/* <div class="reveal-opacity" data-delay="300" data-opacity-duration="2">HELLO MY NAME IS</div> */
+/* <div class="reveal-opacity" data-delay="400" data-opacity-duration="2.5">HELLO MY NAME IS</div> */
+/* <div class="reveal-opacity" data-delay="500" data-opacity-duration="3">HELLO MY NAME IS</div> */
+/* <div class="reveal-opacity" data-delay="600" data-opacity-duration="3.5">HELLO MY NAME IS</div> */
+
+
+
+
+.reveal-opacity {  
+  opacity: 0; /* Initial opacity */  
+  transition: opacity 0.5s ease; /* Default transition for opacity */  
+}  
+
+/* When visible, apply the final opacity */  
+.reveal-opacity.visible {  
+  opacity: 1; /* Final opacity when visible */  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------ROTATION ANIMATION---------------------------------------------- */
+
+
+/* <div class="rotate right" data-delay="200">HELLO MY NAME IS</div> */
+/* <div class="rotate left" data-delay="300">HELLO MY NAME IS</div> */
+/* <div class="rotate y-right" data-delay="400">HELLO MY NAME IS</div> */
+/* <div class="rotate x-right" data-delay="500">HELLO MY NAME IS</div> */
+/* <div class="rotate y-left" data-delay="600">HELLO MY NAME IS</div> */
+/* <div class="rotate x-left" data-delay="700">HELLO MY NAME IS</div> */
+
+
+
+
+
+
+
+.rotate {  
+  opacity: 0; /* Initial opacity */  
+  transition: opacity 0.5s ease, transform 3s ease, rotate 3s ease-in-out; 
+}  
+
+
+.rotate.left {  
+  transform: translate(0) rotate(360deg);
+} 
+
+
+.rotate.right {  
+  transform: translate(0) rotate(-360deg);
+}
+
+
+.rotate.y-right {  
+  transform: translate(0) rotateY(-360deg);
+}
+
+
+.rotate.y-left {  
+  transform: translate(0) rotateY(360deg);
+}
+
+
+
+.rotate.x-right {  
+  transform: translate(0) rotateX(-360deg);
+}
+
+
+.rotate.x-left {  
+  transform: translate(0) rotateX(360deg);
+}
+
+
+.rotate.visible {  
+  opacity: 1; 
+  transform: translate(0) rotate(0);
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

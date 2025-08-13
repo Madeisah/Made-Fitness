@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    padding: 50px;
+    /* background-color: brown; */
+}
+
+* {
+  margin-inline: auto;
+  /* color: rgba(194, 13, 13, 0.719); */
+  color: wheat;
+  margin: 0;
+  padding: 0;
+}
+/* -----------------------Membership Form Styling-------------------------- */
+.container-2 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: auto;
+  gap: 30px;
+  width: 50%;
+  padding: 20px;
+  /* height: 500px; */
+  background-color: rgb(41, 38, 38);
+}
+
+.main-con1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    /* gap: 30px; */
+
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+}
+
+.form-con {
+  padding: 10px;
+  border: none;
+  /* border: 1px solid rgb(250, 29, 66); */
+}
+
+.form-con input::placeholder {
+  padding: 10px;
+}
+
+
+.option {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.options {
+  color: rgb(250, 29, 66);
+}
+
+.m-o-c {
+  display: flex;
+  padding-left: 3px;
+  gap: 10px;
+}
+
+
+#long {
+  display: grid;
+  width: 100%;
+}
+
+
+
+
+
+
+
+button {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  background-color: rgb(212, 5, 39, 0.81);
+}
+
+

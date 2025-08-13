@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    padding: 50px;
+    background-image: url(image/fit16.jpeg);
+}
+
+* {
+  margin-inline: auto;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto;
+  gap: 50px;
+  width: 35%;
+  height: 500px;
+  background-color: rgb(41, 38, 38);
+}
+
+.main-con {
+  width: 70%;
+}
+
+
+.return:hover {
+  background-color: rgb(212, 5, 39, 0.81);
+}
+
+.return {
+  position: fixed;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+
+
+.return i {
+  color: white;
+  font-size: 50px;
+}
+
+
+.return:hover i {
+  color: white;
+}
+
+
+
+.p1::after  {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(212, 5, 39, 0.81);
+}
+
+.p1 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.h1 {
+  text-align: center;
+}
+
+.ss1 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 0;
+  border-radius: 20px;
+}
+
+.form1 ::placeholder {
+  padding-left: 6px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(212, 5, 39, 0.81);
+  border: 1px solid rgb(250, 29, 66);
+} 
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  gap: 8px;
+}
+
+
+.checkbox input {
+  width: 10px;
+}
+
+
+button {
+  width: 100%;
+  height: 38px;
+  color: white;
+  font-size: 11px;
+  border-radius: 20px;
+  border: 1px solid rgb(250, 29, 66);
+  background-color: rgb(212, 5, 39, 0.81);
+}
+
+button:hover {
+  background-color: rgb(250, 29, 66);
+  border: 1px solid rgb(212, 5, 40);
+}
+
+.p-reset {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) { 
+
+.container {
+  width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) { 
+
+.container {
+  width: 50%;
+}
+
+
+
+
+
+}
+
+
