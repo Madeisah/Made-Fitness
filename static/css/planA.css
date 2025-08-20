@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     height: 500px;
     padding: 50px;
-    background-image: url(image/fit16.jpeg);
+    background-image: url(../../static/image/fit16.jpeg);
 }
 
 * {

@@ -1,6 +1,6 @@
 body {
     height: 150vh;
-    background-image: url(image/fit16.jpeg);
+    background-image: url(../../static/image/fit16.jpeg);
     /* background-size: contain; */
     /* background-repeat: no-repeat; */
 }

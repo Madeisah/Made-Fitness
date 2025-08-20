@@ -68,6 +68,7 @@ header {
     display: flex;
     gap: 15px;
     align-items: center;
+    font-size: 13px;
 }
 
 
@@ -123,7 +124,7 @@ header {
 /* -----------------Hero Styling----------------------- */
 
 .hero {
-    background-image: url(static/../image/The\ Secret\ to\ Body\ Recomposition_\ Lose\ Fat\ &\ Gain\ Muscle\ _\ Legion.jpg);
+    background-image: url(../../static/image/fit20.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,6 +252,7 @@ header {
 
 .faq-btn {
     width: 100%;
+    cursor: help;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -315,8 +317,8 @@ header {
 
 .program-main-con {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -367,6 +369,10 @@ header {
     border: 2px solid white;
     font-size: 14px;
     padding: 0 30px;
+}
+
+.p-btn:hover {
+    border-color: rgb(250, 29, 66);
 }
 
 
@@ -1012,8 +1018,28 @@ footer {
 
 
 .copyright {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    gap: 50px;
     width: 100%;
 }
+/* 
+.copyright p {
+    width: 100%;
+} 
+
+.copyright h4 {
+    width: 100%;
+} */
+
+.f-socials {
+    width: 100%;
+}
+
+
+
+
 
 
 
